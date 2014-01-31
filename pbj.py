@@ -1,4 +1,4 @@
-$First Goal: Create a program that can tell you whether or not you can make a peanut butter and jelly sandwich
+#First Goal: Create a program that can tell you whether or not you can make a peanut butter and jelly sandwich
 
 Bread = '2'
 Jelly = '1'

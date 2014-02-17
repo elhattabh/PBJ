@@ -1,0 +1,12 @@
+movie_titles=['The Emperor\'s New Groove', 'Face Off','10 things i hate about you', 'Catching Fire', 'The Golden Compass']
+parent_ratings= ['PG','R','PG','R','R']
+imdb_rating= ['7.3','7.3','7.2','8.0','6.1']
+bechdel_test= ['3', '3','3','3','3']
+Genre= ['Animation', 'Action' , 'Chick Flick', 'Sci-FI','Fantasy']
+movie_info=zip(movie_titles, parent_ratings,imdb_rating, bechdel_test, Genre)
+
+
+for movie1,apple,movie2,apple2,movie3 in movie_info:
+    print "{0},{1},{2},{3},{4}".format(movie1,apple,movie2,apple2,movie3)
+
+        

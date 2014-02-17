@@ -1,0 +1,46 @@
+#While Loop 1st goal:
+
+#Goal 1
+total = 1
+bread =40
+pb= 50
+jelly= 15
+
+while bread >=2 and pb >=3 and jelly >= 1:
+    print 'Making sandwich # {0}'.format(total)
+    bread = bread  -2
+    pb = pb - 2
+    jelly = jelly-1
+    total= total + 1
+
+if bread <2:
+    print 'I\'m out of bread, no more sandwiches'
+elif pb <3:
+    print 'I\'m out of penut butter, no more sandwiches'
+elif jelly <1:
+    print 'I\'m out of jelly, no more sandwiches'
+
+#While Loop 2nd Goal
+bread= 20
+pb = 15
+jelly = 12
+total = 0
+
+
+
+while bread >=2 and pb>=1 and jelly >=3:
+    print 'Making sandwich #{0}'.format(total+1)
+    bread= bread-2
+    pb= pb-1
+    jelly=jelly-3
+    total=total+1
+
+    print 'I have enough bread for {0} more sandwiches, enough penut butter for {1} more sandwiches, and enough jelly for {2} more sandwiches.'.format(bread,pb,jelly)
+
+    if bread <2:
+        print 'I ran out of bread!'
+    elif pb<1:
+        print 'I ran out of penut butter!'
+    elif jelly <3:
+        print 'I ran out of jelly!'
+    
